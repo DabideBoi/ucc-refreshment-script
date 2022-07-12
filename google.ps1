@@ -5,10 +5,6 @@ If Chrome enterprise is not present, it will also download and install it
 and it will enroll them to the Chrome Enterprise
 #>
 
-#I added another comment to check Github online editor
-
-#added another comment to check github.dev
-
 <# Specify a -user parameter if you want to bind the current user account to a Google account.
 -User name.lastname@domain.com -> to specify email to enroll current windows account
 -MDMvalue 1 -> to enable automatic MDM Enrollment to Google Endpoint Management
@@ -25,7 +21,7 @@ param (
 )
 
 <# Add domains to restrict here #>
-$domainsAllowedToLogin = "gmail.com"
+$domainsAllowedToLogin = "ucc.ph"
 <# Faster downloads with Invoke-WebRequest #>
 $ProgressPreference = 'SilentlyContinue'
 
